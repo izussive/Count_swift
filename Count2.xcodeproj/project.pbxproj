@@ -14,6 +14,7 @@
 		5A7EABA71CE4558700D80D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7EABA51CE4558700D80D1A /* LaunchScreen.storyboard */; };
 		5A7EABB21CE4558800D80D1A /* Count_practice_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7EABB11CE4558700D80D1A /* Count_practice_Tests.swift */; };
 		5A7EABBD1CE4558800D80D1A /* Count_practice_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7EABBC1CE4558800D80D1A /* Count_practice_UITests.swift */; };
+		5A7EABCB1CE4615700D80D1A /* screen322x572.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A7EABCA1CE4615700D80D1A /* screen322x572.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5A7EABB81CE4558800D80D1A /* Count~practice~UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count~practice~UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7EABBC1CE4558800D80D1A /* Count_practice_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_practice_UITests.swift; sourceTree = "<group>"; };
 		5A7EABBE1CE4558800D80D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7EABCA1CE4615700D80D1A /* screen322x572.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen322x572.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		5A7EAB9B1CE4558700D80D1A /* Count~practice~ */ = {
 			isa = PBXGroup;
 			children = (
+				5A7EABCA1CE4615700D80D1A /* screen322x572.jpg */,
 				5A7EAB9C1CE4558700D80D1A /* AppDelegate.swift */,
 				5A7EAB9E1CE4558700D80D1A /* ViewController.swift */,
 				5A7EABA01CE4558700D80D1A /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					5A7EAB981CE4558700D80D1A = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 					5A7EABAC1CE4558700D80D1A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -204,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A7EAB941CE4558700D80D1A /* Build configuration list for PBXProject "Count~practice~" */;
+			buildConfigurationList = 5A7EAB941CE4558700D80D1A /* Build configuration list for PBXProject "Count2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A7EABA71CE4558700D80D1A /* LaunchScreen.storyboard in Resources */,
+				5A7EABCB1CE4615700D80D1A /* screen322x572.jpg in Resources */,
 				5A7EABA41CE4558700D80D1A /* Assets.xcassets in Resources */,
 				5A7EABA21CE4558700D80D1A /* Main.storyboard in Resources */,
 			);
@@ -403,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Count-practice-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Count-practice-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -466,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A7EAB941CE4558700D80D1A /* Build configuration list for PBXProject "Count~practice~" */ = {
+		5A7EAB941CE4558700D80D1A /* Build configuration list for PBXProject "Count2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A7EABBF1CE4558800D80D1A /* Debug */,
@@ -482,6 +489,7 @@
 				5A7EABC31CE4558800D80D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A7EABC41CE4558800D80D1A /* Build configuration list for PBXNativeTarget "Count~practice~Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				5A7EABC61CE4558800D80D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A7EABC71CE4558800D80D1A /* Build configuration list for PBXNativeTarget "Count~practice~UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				5A7EABC91CE4558800D80D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
